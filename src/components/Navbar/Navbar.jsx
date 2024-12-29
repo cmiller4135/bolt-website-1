@@ -20,7 +20,7 @@ const Navbar = () => {
           <span className="nav-link">Solutions</span>
           {showSolutions && (
             <div className="dropdown-content">
-              <Link to="/submenu1">Submenu 1</Link>
+              <Link to="/submenu1">Grok Utilities</Link>
               <Link to="/submenu2">Spanish Conjugations</Link>
               <Link to="/submenu3">Submenu 3</Link>
             </div>

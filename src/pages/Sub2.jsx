@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import Select from 'react-select';
 import { supabase } from '../lib/supabase';
+import './Sub2.css'; // Import the CSS file for styling
 
 const Sub2 = () => {
   const [verbs, setVerbs] = useState([]);
@@ -48,6 +49,16 @@ const Sub2 = () => {
         onChange={handleVerbChange}
         placeholder="Select a Spanish verb..."
         isSearchable
+        styles={{
+          control: (provided) => ({
+            ...provided,
+            borderRadius: '8px',
+          }),
+          option: (provided) => ({
+            ...provided,
+            color: 'black',
+          }),
+        }}
       />
       {verbDetails && (
         <div className="verb-details">

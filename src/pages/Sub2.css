@@ -1,0 +1,19 @@
+.submenu-page {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.submenu-page h1 {
+  color: #333;
+}
+
+.verb-details {
+  margin-top: 20px;
+}
+
+.verb-details p {
+  color: #666;
+}
